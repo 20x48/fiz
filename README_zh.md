@@ -1,28 +1,25 @@
 # FIZ
 
-[中文](https://github.com/20x48/fiz/README_zh.md)
+用于将`HEX`转换为`Human.Spellable.Words.`（人类可拼读）的工具 . . 我尽力了。
 
-A utility use to convert HEX to (i've tried my best) *Human.Spellable.Words.*
+## 特性
 
-## Feature
+1. 编码大小甚至比八进制还要糟糕。
+2. 动态输出长度。
+3. 但最重要的是，**人类可拼读**！
 
-1. The encoded size is *even worse than octal*.
-2. Dynamic output length.
-3. But most importantly, **human spellable**!
+忽略前两项吧～别在你的用户界面上节省太多～
 
-Ignore the first two and don't save too much on your UI.
+**注意：**
+尽管已经对广泛的输入（和正确的类型）进行了测试，但仍不能保证不会出任何问题。
+在历经时间考验之前，我不能肯定任何东西（BETA版本不要立Flag啊!）。
+另外，你可以通过`except fiz.FizError`来捕获它们。
 
-**NOTE:**
-Although it has been tested against a wide range of inputs (with correct type),
-but there is still no guarantee that nothing will go wrong.
-Before the test of time, I can't be sure of anything.
-In addition, you can catch them by `except fiz.FizError`.
-
-## Install
+## 安装
 
     pip install fiz
 
-## Usage
+## 用法
 
 ``` jupyter
 In [1]: from fiz import Fiz
@@ -34,7 +31,7 @@ In [3]: Fiz(b'custom joiner', '-')
 Out[3]: 'Taideutidipladeepfold-Tsphycomb-Nuf-Re'
 ```
 
-## Long Long Examples
+## 长长的示例
 
 ```
 --- 1 ---
