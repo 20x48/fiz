@@ -21,7 +21,7 @@
 
 ## 用法
 
-``` jupyter
+``` python
 In [1]: from fiz import Fiz
 
 In [2]: Fiz(b'some bytes...')

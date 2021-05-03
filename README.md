@@ -1,6 +1,6 @@
 # FIZ
 
-[中文](https://github.com/20x48/fiz/README_zh.md)
+[中文](https://github.com/20x48/fiz/blob/main/README_zh.md)
 
 A utility use to convert HEX to (i've tried my best) *Human.Spellable.Words.*
 
@@ -24,7 +24,7 @@ In addition, you can catch them by `except fiz.FizError`.
 
 ## Usage
 
-``` jupyter
+``` python
 In [1]: from fiz import Fiz
 
 In [2]: Fiz(b'some bytes...')
